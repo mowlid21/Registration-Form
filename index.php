@@ -43,6 +43,8 @@ if (isset($_POST['email']))
     <title>register</title>
 </head>
 <body>
+<?php require "navbar.php>"?>
+
     <div class="container">
 
         <div class="row justify-content-center">
