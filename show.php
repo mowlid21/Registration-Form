@@ -51,7 +51,9 @@ $students = $stm->fetchAll();
                     <td><?=$student->phone ?></td>
                     <td><?=$student->course ?></td>
                     <td><button data-toggle="modal" data-target="#myModal<?=$student->id?>" class="btn btn-info btn-sm">more</button> </td>
-                    <td><a class="btn btn-danger btn-sm" href="delete.php?id=<?=$student->id?>" class="">x</a></td>
+                    <td><a class="btn btn-danger btn-sm" href="delete.php?id=<?=$student->id?>" class="">X</a></td>
+                    <td><a class="btn btn-warning btn-sm" href="edit.php?id=<?=$student->id?>" class="">E</a></td>
+
                 </tr>
 
 
